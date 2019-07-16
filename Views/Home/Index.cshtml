@@ -1,0 +1,25 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+<div class="jumbotron">
+    <h2>NextData Development Assessment</h2>
+    <p class="lead">
+        Framework used : Entity Framework </br>
+        PreExisting user Interface : Bootstrap </br>
+        Language : Asp.Net 4.6  MVC Web Application </br>
+    </p>
+
+</div>
+
+<div class="row">
+    <div class="col-md-4">
+        <h2>Task</h2>
+        <p>
+            Display user information in a tabular format.
+            Click the link below to get the information about the users.
+        </p>
+        <p><a class="btn btn-default" @Html.ActionLink("List of users", "Index", "Infoes")<br /></a></p>
+    </div>
+
+</div>
